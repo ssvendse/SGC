@@ -7,20 +7,26 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-grid>
-    <ion-row>
-      <ion-col size="12" sizeMd>
-        <ion-card>
-          <ion-card-header>
-            <ion-card-title>
-              <ion-label align="center">
-                SKYLER@SPACEGOATANDCO.COM
-              </ion-label>
-            </ion-card-title>
-          </ion-card-header>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+<ion-content padding>
+<ion-grid size="12">
+  <ion-row align-items-center justify-content-center>
+    <ion-card >
+      <ion-card-header>
+        <ion-card-title style="text-align: center">skyler@spacegoatandco.com</ion-card-title>
+        <ion-card-subtitle style="text-align: center">We'd love to hear from you, feel free to send us an email!</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-grid>
+          <ion-row align-items-center justify-content-center>
+            <ion-buttons>
+              <ion-button href="mailto:skyler@spacegoatandco.com?Subject=Hello!">
+                Email!
+              </ion-button>
+            </ion-buttons>
+          </ion-row>
+        </ion-grid>
+      </ion-card-content>
+    </ion-card>
+  </ion-row>
+</ion-grid>
 </ion-content>
